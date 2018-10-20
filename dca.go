@@ -11,7 +11,7 @@ import (
 // Define constants
 const (
 	// The current version of the DCA format
-	FormatVersion int8 = 1
+	FormatVersion int8 = 0
 
 	// The current version of the DCA program
 	LibraryVersion string = "0.0.5"
