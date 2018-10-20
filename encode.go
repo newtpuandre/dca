@@ -246,9 +246,9 @@ func (e *EncodeSession) run() {
 		return
 	}
 
-	if !e.options.RawOutput {
+	/*if !e.options.RawOutput {
 		e.writeMetadataFrame()
-	}
+	}*/
 
 	// Starts the ffmpeg command
 	err = ffmpeg.Start()
